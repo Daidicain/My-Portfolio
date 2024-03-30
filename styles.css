@@ -27,7 +27,6 @@ p {
   }
 
 .title {
-    /* background-image: image("images/Main/banner.jpg"); */
     background-size: 100%;
     padding-top: 2vw;
     padding-bottom: 2vw;
@@ -91,7 +90,6 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-image: image('images/Main/banner.jpg');
   background-size: 100%;
   color: white;
   text-align: center;
