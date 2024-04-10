@@ -2,20 +2,20 @@
 h1 {
     color: white;
     text-align: center;
-    font-size: 6vw;
+    font-size: 6rem;
     margin: 0;
   }
 
 h2 {
     color: white;
     text-align: center;
-    font-size: 3vw;
+    font-size: 3rem;
     margin: 0;
   }
   
 p {
     font-family: verdana;
-    font-size: 2vw;
+    font-size: 1rem;
   }
 
 .row {
@@ -28,9 +28,9 @@ p {
 
 .title {
     background-size: 100%;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-    padding-left: 2vw;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
 }
 
 
@@ -49,7 +49,7 @@ body {
 
 #about {
     font-family: verdana;
-    font-size: 2vw;
+    font-size: 2rem;
     display: inline;
     visibility: visible;
     width: 100%;
@@ -57,14 +57,14 @@ body {
 
 #projects {
   font-family: verdana;
-  font-size: 2vw;
+  font-size: 2rem;
   display: none;
   visibility: visible;
 }
 
 #test {
   font-family: verdana;
-  font-size: 2vw;
+  font-size: 2rem;
   display: inline;
   visibility: visible;
   background-color: #32a1ce;
@@ -73,14 +73,14 @@ body {
 
 #qualifications {
   font-family: visible;
-  font-size: 2vw;
+  font-size: 2rem;
   display: none;
   visibility: visible;
 }
 
 #resources {
   font-family: verdana;
-  font-size: 2vw;
+  font-size: 2rem;
   display: none;
   visibility: visible;
 }
