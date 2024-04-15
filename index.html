@@ -22,7 +22,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark navigation">
           <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon row"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
@@ -32,101 +32,147 @@
                 <a class="nav-link" onclick="navigateView('resources', 'projects', 'qualifications', 'about')" href="#">Resources</a>
               </div>
             </div>
+            <div class="d-flex flex-row" style="text-align: right;">
+              <a href="https://github.com/Daidicain">
+                <img src="images\Main\github-mark-white.svg" class="icon">
+              </a>
+              <a href="https://www.linkedin.com/in/skylar-stromme/">
+                <img src="images\Main\In-White-128-╬ô├ñ├│@2x.png" class="icon">
+              </a>
+            </div>
           </div>
         </nav>
 
         <div class="about" id="about">
-            <p style="width: 80%;text-align: center; margin: auto; padding-bottom: 2rem; padding-top: 2rem;">
+            <p style="margin-top: 2rem;">
               Hello, I am a fourth-year Computer Science Major at MacEwan University.
               I am passionate about software with the goal to participate in the Xemu project one day.
             </p>
+            <div>
+              <h3 class="section_header">Work Experience</h3>
+              <section_topic>
+                <span class="topic_header">RockWall</span>
+                <span class="topic_date">October 2013 - August 2019</span>
+                <span class="topic_subheader"></span>
+                <p class="topic_p">oohoi</p>
+              </section_topic>
+
+              <section_topic>
+                <span class="topic_header">Staff at Rocky Leadership and Challenge</span>
+                <span class="topic_date">june 2019 - july 2019</span>
+                <span class="topic_subheader"></span>
+                <p class="topic_p">oohoi</p>
+              </section_topic>
+
+              <section_topic>
+                <span class="topic_header">Nofrils Wainwright</span>
+                <span class="topic_date">October 2013 - August 2019</span>
+                <span class="topic_subheader"></span>
+                <p class="topic_p">oohoi</p>
+              </section_topic>
+
+              <section_topic>
+                <span class="topic_header">SAP at Loblaws City Market</span>
+                <span class="topic_date">August 2019 - present</span>
+                <span class="topic_subheader">12060 104 Ave NW Unit 101, Edmonton, AB T5K 0T3</span>
+                <p class="topic_p">oohoi</p>
+              </section_topic>
+
+              <section_topic>
+                <span class="topic_header">Tech 1, Macewan Tech Support</span>
+                <span class="topic_date">July 2023 - present</span>
+                <span class="topic_subheader">7-292, City Centre Campus 10700 – 104 Avenue Edmonton, AB</span>
+                <p class="topic_p">oohoi</p>
+              </section_topic>
+            </div>
+            
         </div>
 
-        <div class="projects" id="projects" style="width: 80%; margin: auto;">
-                <h2 class="prevent-select" style="text-align: center; padding-bottom: 1rem; text-decoration-line: underline;">
-                    Backstock Tracker App
-                </h2>
-                <p id="project one" style="text-align: left;">
-                  I developed this application to manage and simplify the overstock process at my workplace with a few key goals. 
-                  It provides tools to modify inventory forecast, display replinishment, and home replenishment.<br>
+        <div class="projects" id="projects">
+          
+          <h2 class="section_header prevent-select" style="margin-top: 2rem; margin-bottom: 1rem;">
+            Backstock Tracker App
+          </h2>
+          <p class="topic_p" id="project one" style="text-align: left;">
+            I developed this application to manage and simplify the overstock process at my workplace with a few key goals. 
+            It provides tools to modify inventory forecast, make claims, display replinishment, and home replenishment.<br>
+          </p>
+          <p class="topic_header">
+            Primary Project Objectives:
+          </p>
+          <li class="topic_p">Improve data integrity</li>
+          <li class="topic_p">Improve workflow</li>
+          <li class="topic_p">Simplify Tasks</li>
+
+          <div id="carouselExample" class="carousel carousel-light slide" data-bs-ride="carousel" data-mdb-interval="false">
+            <div class="carousel-indicators">
+              <div data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"></div>
+              <div data-bs-target="#carouselExample" data-bs-slide-to="1"></div>
+              <div data-bs-target="#carouselExample" data-bs-slide-to="2"></div>
+              <div data-bs-target="#carouselExample" data-bs-slide-to="3"></div>
+              <div data-bs-target="#carouselExample" data-bs-slide-to="4"></div>
+              <div data-bs-target="#carouselExample" data-bs-slide-to="5"></div>
+            </div>
+            <div class="carousel-inner" style="text-align: center;">
+              <div class="carousel-item active">
+                <h5>Article Lookup</h5>
+                <img src="images\project one\Article Lookup.png" style="width: 12rem; height: auto;">
+                <p style="font-size: 1rem; width: 80%; margin: auto;">
+                  This menu allows you to lookup all of the information about a given item in the database
                 </p>
-                <p style="text-align: left;">
-                  <br>Primary Project Objectives:
+              </div>
+              <div class="carousel-item">
+                <h5>Article Overide</h5>
+                <img src="images\project one\Article Overide.png" style="width: 12rem; height: auto;">
+                <p style="font-size: 1rem; width: 80%; margin: auto;">
+                  This menu allows the user to change the SRQ (how much the shelf can hold) and the Case size (how many units in a case). altering these values changes how many items the system will think can go out.
                 </p>
-                <p style="text-align: left; width: 90%; margin: auto; margin-bottom: 2rem;">
-                  1) Improve data integrity<br>
-                  2) Improve workflow<br>
-                  3) Simplify Tasks<br>
+              </div>
+              <div class="carousel-item">
+                <h5>Forecast Menu</h5>
+                <img src="images\project one\Forecast Menu.png" style="width: 12rem; height: auto;">
+                <p style="font-size: 1rem; width: 80%; margin: auto;">
+                  This menu allows the user to see all forecast change requests
                 </p>
-                <div id="carouselExample" class="carousel carousel-light slide" data-bs-ride="carousel" data-mdb-interval="false">
-                  <div class="carousel-indicators">
-                    <li data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"></li>
-                    <li data-bs-target="#carouselExample" data-bs-slide-to="1"></li>
-                    <li data-bs-target="#carouselExample" data-bs-slide-to="2"></li>
-                    <li data-bs-target="#carouselExample" data-bs-slide-to="3"></li>
-                    <li data-bs-target="#carouselExample" data-bs-slide-to="4"></li>
-                    <li data-bs-target="#carouselExample" data-bs-slide-to="5"></li>
-                  </div>
-                  <div class="carousel-inner" style="text-align: center;">
-                    <div class="carousel-item active">
-                      <h5>Article Lookup</h5>
-                      <img src="images\project one\Article Lookup.png" style="width: 12rem; height: auto;">
-                      <p style="font-size: 1rem; width: 80%; margin: auto;">
-                        This menu allows you to lookup all of the information about a given item in the database
-                      </p>
-                    </div>
-                    <div class="carousel-item">
-                      <h5>Article Overide</h5>
-                      <img src="images\project one\Article Overide.png" style="width: 12rem; height: auto;">
-                      <p style="font-size: 1rem; width: 80%; margin: auto;">
-                        This menu allows the user to change the SRQ (how much the shelf can hold) and the Case size (how many units in a case). altering these values changes how many items the system will think can go out.
-                      </p>
-                    </div>
-                    <div class="carousel-item">
-                      <h5>Forecast Menu</h5>
-                      <img src="images\project one\Forecast Menu.png" style="width: 12rem; height: auto;">
-                      <p style="font-size: 1rem; width: 80%; margin: auto;">
-                        This menu allows the user to see all forecast change requests
-                      </p>
-                    </div>
-                    <div class="carousel-item">
-                      <h5>Forecast Details</h5>
-                      <img src="images\project one\Forecast Details.png" style="width: 12rem; height: auto;">
-                      <p style="font-size: 1rem; width: 80%; margin: auto;">
-                        Found by clicking on an item in the forecast menu. This menu allows the user to see all forecast request details
-                      </p>
-                    </div>
-                    <div class="carousel-item">
-                      <h5>Forecast Form</h5>
-                      <img src="images\project one\Forecast Form.png" style="width: 12rem; height: auto;">
-                      <p style="font-size: 1rem; width: 80%; margin: auto;">
-                        Found by clicking the plus sign in the forecast menu. This menu allows the user to input a new forecast change request
-                      </p>
-                    </div>
-                    <div class="carousel-item">
-                      <h5>Reversepick Menu</h5>
-                      <img src="images\project one\Reversepick.png" style="width: 12rem; height: auto;">
-                      <p style="font-size: 1rem; width: 80%; margin: auto;">
-                        This menu tells the user what items can go out. It distinguishes a case from a single unit with "ea". It also says the storage location below the quantity to go for fast retrieval.
-                      </p>
-                    </div>
-                  </div>
-                  <a class="carousel-control-prev" href="#carouselExample" role="button" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselExample" role="button" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </a>
-                </div>
+              </div>
+              <div class="carousel-item">
+                <h5>Forecast Details</h5>
+                <img src="images\project one\Forecast Details.png" style="width: 12rem; height: auto;">
+                <p style="font-size: 1rem; width: 80%; margin: auto;">
+                  Found by clicking on an item in the forecast menu. This menu allows the user to see all forecast request details
+                </p>
+              </div>
+              <div class="carousel-item">
+                <h5>Forecast Form</h5>
+                <img src="images\project one\Forecast Form.png" style="width: 12rem; height: auto;">
+                <p style="font-size: 1rem; width: 80%; margin: auto;">
+                  Found by clicking the plus sign in the forecast menu. This menu allows the user to input a new forecast change request
+                </p>
+              </div>
+              <div class="carousel-item">
+                <h5>Reversepick Menu</h5>
+                <img src="images\project one\Reversepick.png" style="width: 12rem; height: auto;">
+                <p style="font-size: 1rem; width: 80%; margin: auto;">
+                  This menu tells the user what items can go out. It distinguishes a case from a single unit with "ea". It also says the storage location below the quantity to go for fast retrieval.
+                </p>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExample" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExample" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+          </div>
                 
         </div>
 
-        <div class="qualifications" id="qualifications" style="width: 60%; margin: auto;text-align: center;">
-          <table style="text-align: left; margin: auto; font-size: 3vw;">
+        <div class="qualifications" id="qualifications" style="width: 60%;">
+          <table class="topic_p">
             <tr>
-              <th style="width: 10%; font-size: 4vw;">Languages</th>
+              <th class="topic_header" style="width: 10%;">Languages</th>
               <th style="width: 10%;"></th>
             </tr>
             <tr>
@@ -159,9 +205,9 @@
             </tr>
           </table>
 
-          <table style="text-align: left; margin-top: 2rem; font-size: 3vw;">
+          <table class="topic_p">
             <tr>
-              <th style="width: 10%; font-size: 4vw;">Tech/Tools</th>
+              <th class="topic_p" style="width: 10%;">Tech/Tools</th>
               <th style="width: 10%;"></th>
             </tr>
             <tr>
@@ -199,13 +245,13 @@
           </table>
         </div>
 
-        <div class="resources" id="resources" style="text-align: center;">
+        <div class="resources" id="resources">
           <h2 class="prevent-select" style="text-align: center; padding-bottom: 1rem; text-decoration-line: underline;">
             Sources:
           </h2>
             <a style="font-size: 3vw;" href="https://davinsi.com/en/news/transforming-it-operations-aiops-future-smart-business-management">
               Banner Image
-            </a>
+            </a>            
         </div>
 
     </body>

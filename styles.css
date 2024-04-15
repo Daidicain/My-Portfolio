@@ -17,6 +17,25 @@ p {
     font-size: 1rem;
   }
 
+  .navbar-toggler {
+    border: none;
+    outline: none;
+  
+     &:focus,
+     &:active,
+     &-icon:focus {
+       outline: none;
+       box-shadow: none;
+     }
+  }
+
+.icon {
+  margin-right: 1rem;
+  display: block;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
 .row {
     display: flex;
   }
@@ -52,30 +71,29 @@ body {
 }
 
 #about {
+    width: 80%;
+    margin: auto;
+    text-align: center;
     font-family: verdana;
     font-size: 2rem;
     display: inline;
     visibility: visible;
-    width: 100%;
 }
 
 #projects {
+  width: 80%;
+  margin: auto;
+  text-align: center;
   font-family: verdana;
   font-size: 2rem;
   display: none;
   visibility: visible;
 }
 
-#test {
-  font-family: verdana;
-  font-size: 2rem;
-  display: inline;
-  visibility: visible;
-  background-color: #32a1ce;
-  width: 100%;
-}
-
 #qualifications {
+  width: 80%;
+  margin: auto;
+  text-align: center;
   font-family: visible;
   font-size: 2rem;
   display: none;
@@ -83,6 +101,9 @@ body {
 }
 
 #resources {
+  width: 80%;
+  margin: auto;
+  text-align: center;
   font-family: verdana;
   font-size: 2rem;
   display: none;
@@ -130,6 +151,38 @@ body {
   left:0;
   right:0;
   padding-bottom: 50px;
+}
+
+.section_header{
+  font-size: 2vw;
+  font-weight: bold;
+  text-align: left;
+}
+
+.topic_header{
+  font-size: 1.5vw;
+  text-align: left;
+  float: left;
+}
+
+.topic_subheader{
+  font-size: 1vw;
+  text-align: left;
+  clear: both;
+  float: left;
+}
+
+.topic_date{
+  font-size: 1vw;
+  text-align: right;
+  font-style: italic  ;
+  float: right;
+}
+
+.topic_p{
+  text-align: left;
+  clear: both;
+  font-size: 1rem;
 }
 
 
