@@ -1,0 +1,187 @@
+  
+h1 {
+    
+    text-align: center;
+    font-size: 8vw;
+    margin: 0;
+  }
+
+h2 {
+    text-align: center;
+    font-size: 5vw;
+    margin: 0;
+  }
+  
+p {
+    font-family: verdana;
+    font-size: 1vw;
+  }
+
+  .navbar-toggler {
+    border: none;
+    outline: none;
+  
+     &:focus,
+     &:active,
+     &-icon:focus {
+       outline: none;
+       box-shadow: none;
+     }
+  }
+
+.icon {
+  margin-right: 1vw;
+  display: block;
+  height: 2.5vw;
+  width: 2.5vw;
+}
+
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 50%;
+  }
+
+.title {
+    color: white;
+    background-size: 100%;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    padding-left: 2vw;
+}
+
+body {
+  color: white;
+  background-color: #145DA0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation{
+    background-color: #2E8BC0;
+    display: flex;
+}
+
+
+.nav-link{
+  color: white;
+}
+
+#about {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-family: verdana;
+    font-size: 2vw;
+    display: inline;
+    visibility: visible;
+}
+
+#projects {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-family: verdana;
+  font-size: 2vw;
+  display: none;
+  visibility: visible;
+}
+
+#qualifications {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-family: visible;
+  font-size: 2vw;
+  display: none;
+  visibility: visible;
+}
+
+#resources {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-family: verdana;
+  font-size: 2vw;
+  display: none;
+  visibility: visible;
+}
+
+.footer {
+  margin-top: auto;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-size: 100%;
+  color: white;
+  text-align: center;
+}
+
+.collapse {
+  &:not(.show) {
+    display: none;
+  }
+}
+
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.carousel-item {
+  /* height: 30rem; */
+  min-height: 30rem;
+  overflow: hidden;
+  position:relative;
+  background-position: center;
+  /* background-size: cover; */
+}
+
+.carousel{
+  padding-bottom: 2rem;
+}
+
+.container {
+  position: absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  padding-bottom: 50px;
+}
+
+.section_topic {
+  text-align: left;
+}
+
+.section_header{
+  font-size: 6vw;
+  font-weight: bold;
+  text-align: left;
+}
+
+.topic_header{
+  font-size: 1.5vw;
+  font-weight: bold;
+  text-align: left;
+  display: inline-block;
+}
+
+.topic_date{
+  font-size: 1.5vw;
+  text-align: right;
+  font-style: italic;
+  display: inline-block;
+  margin-left: auto;
+}
+
+.topic_p{
+  text-align: left;
+  font-size: 1vw;
+  display: block;
+}
+
+

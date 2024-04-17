@@ -6,6 +6,8 @@
         <title>My Web Portfolio</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" media="(max-width: 900px)" href="small.css" />
+        <link rel="stylesheet" media="(min-width: 901px)" href="large.css" />
         <script src="scripts.js"></script>
     </head>
     <body>
@@ -15,7 +17,7 @@
         <div class="title" id="title" style="background-image: url('images/Main/banner.jpg');">
             <div class="column">
                 <h1 style="text-align: left;">My Portfolio</h1>
-                <h2 style="text-align: left;">Skylar Stromme</h2>
+                <h3 style="text-align: left;">Skylar Stromme</h3>
             </div>   
         </div>
         
@@ -44,46 +46,100 @@
         </nav>
 
         <div class="about" id="about">
-            <p style="margin-top: 2rem;">
+            <p>
               Hello, I am a fourth-year Computer Science Major at MacEwan University.
               I am passionate about software with the goal to participate in the Xemu project one day.
             </p>
-            <div>
+            <div style="width: auto;"> <!-- Work Experience -->
               <h3 class="section_header">Work Experience</h3>
+
               <section_topic>
-                <span class="topic_header">RockWall</span>
-                <span class="topic_date">October 2013 - August 2019</span>
-                <span class="topic_subheader"></span>
-                <p class="topic_p">oohoi</p>
+                <div class="d-flex flex-row">
+                  <h3 class="topic_header">SAP | Loblaws City Market | Edmonton, AB</h3>
+                  <h3 class="topic_date">August 2019 - present</h3>
+                </div>
+                <ul class="topic_p">
+                  <li>Overseeing daily operations</li>
+                  <li>Ensuring shelves are full and PI is accurate</li>
+                  <li>Optimizing forecast</li>
+                  <li>Reducing shrink</li>
+                  <li>Completing claims</li>
+                  <li>Use data to optimize workflow and track progress</li>
+                </ul>
+              </section_topic>
+
+              <section_topic> 
+                <div class="d-flex flex-row">
+                  <h3 class="topic_header">Tech 1 | MacEwan University | Edmonton, AB</h3>
+                  <h3 class="topic_date">July 2023 - present</h3>
+                </div>
+                <ul class="topic_p">
+                  <li>Creating and working tickets</li>
+                  <li>Providing technical feedback to clients</li>
+                  <li>Providing technical support to clients</li>
+                  <li>Creating reports to improve workflow.</li>
+                </ul>
+              </section_topic>
+              
+              <section_topic>
+                <div class="d-flex flex-row">
+                  <h3 class="topic_header">Belayer | RockWall | Wainwright, AB</h3>
+                  <h3 class="topic_date">October 2013 - August 2019</h3>
+                </div>
+                <ul class="topic_p">
+                  <li>Maintain wall and equipment</li>
+                  <li>Maintain climbing routes</li>
+                  <li>Belay customers</li>
+                  <li>Instruct new climbers</li>
+                </ul>
               </section_topic>
 
               <section_topic>
-                <span class="topic_header">Staff at Rocky Leadership and Challenge</span>
-                <span class="topic_date">june 2019 - july 2019</span>
-                <span class="topic_subheader"></span>
-                <p class="topic_p">oohoi</p>
+                <div class="d-flex flex-row">
+                  <h3 class="topic_header">Full-time Grocery Clerk | Nofrils | Wainwright, AB</h3>
+                  <h3 class="topic_date">October 2015 - August 2019</h3>
+                </div>
+                <ul class="topic_p">
+                  <li>Managing inventory</li>
+                  <li>Managing staff</li>
+                  <li>Managing displays</li>
+                  <li>Working stock</li>
+                  <li>Cashier</li>
+                </ul>
               </section_topic>
 
               <section_topic>
-                <span class="topic_header">Nofrils Wainwright</span>
-                <span class="topic_date">October 2013 - August 2019</span>
-                <span class="topic_subheader"></span>
-                <p class="topic_p">oohoi</p>
+                <div class="d-flex flex-row">
+                  <h3 class="topic_header">Staff | Rocky Leadership and Challenge | RMCTC, AB</h3>
+                  <h3 class="topic_date">june 2015 - july 2015</h3>
+                </div>
+                <ul class="topic_p">
+                  <li>Supervise Activities</li>
+                  <li>Instruct Classes</li>
+                  <li>Provide Guidence</li>
+                </ul>
               </section_topic>
 
-              <section_topic>
-                <span class="topic_header">SAP at Loblaws City Market</span>
-                <span class="topic_date">August 2019 - present</span>
-                <span class="topic_subheader">12060 104 Ave NW Unit 101, Edmonton, AB T5K 0T3</span>
-                <p class="topic_p">oohoi</p>
-              </section_topic>
+            </div>
+
+            <div style="width: auto;"> <!-- Volunteer Experience -->
+              <h3 class="section_header">Volunteer Experience</h3>
 
               <section_topic>
-                <span class="topic_header">Tech 1, Macewan Tech Support</span>
-                <span class="topic_date">July 2023 - present</span>
-                <span class="topic_subheader">7-292, City Centre Campus 10700 – 104 Avenue Edmonton, AB</span>
-                <p class="topic_p">oohoi</p>
+                <div class="d-flex flex-row">
+                  <h3 class="topic_header">Science Fair Judge |  | Edmonton, AB</h3>
+                  <h3 class="topic_date"></h3>
+                </div>
+                <ul class="topic_p">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
               </section_topic>
+
             </div>
             
         </div>
@@ -93,16 +149,20 @@
           <h2 class="section_header prevent-select" style="margin-top: 2rem; margin-bottom: 1rem;">
             Backstock Tracker App
           </h2>
-          <p class="topic_p" id="project one" style="text-align: left;">
-            I developed this application to manage and simplify the overstock process at my workplace with a few key goals. 
-            It provides tools to modify inventory forecast, make claims, display replinishment, and home replenishment.<br>
-          </p>
-          <p class="topic_header">
-            Primary Project Objectives:
-          </p>
-          <li class="topic_p">Improve data integrity</li>
-          <li class="topic_p">Improve workflow</li>
-          <li class="topic_p">Simplify Tasks</li>
+          <div class="topic_p">
+            <p>
+              I developed this application to manage and simplify the overstock process at my workplace with a few key goals. 
+              It provides tools to modify inventory forecast, make claims, display replinishment, and home replenishment.
+            </p>
+
+            <p class="topic_header">Primary Project Objectives:</p>
+            <ul>
+              <li>Improve data integrity</li>
+              <li>Improve workflow</li>
+              <li>Simplify Tasks</li>
+            </ul>
+            
+          </div>
 
           <div id="carouselExample" class="carousel carousel-light slide" data-bs-ride="carousel" data-mdb-interval="false">
             <div class="carousel-indicators">

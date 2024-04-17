@@ -2,7 +2,7 @@
 h1 {
     
     text-align: center;
-    font-size: 8vw;
+    font-size: 12vw;
     margin: 0;
   }
 
@@ -14,7 +14,7 @@ h2 {
   
 p {
     font-family: verdana;
-    font-size: 1vw;
+    font-size: 3vw;
   }
 
   .navbar-toggler {
@@ -30,10 +30,10 @@ p {
   }
 
 .icon {
-  margin-right: 1vw;
+  margin-right: 4vw;
   display: block;
-  height: 2.5vw;
-  width: 2.5vw;
+  height: 7.5vw;
+  width: 7.5vw;
 }
 
 .row {
@@ -47,8 +47,8 @@ p {
 .title {
     color: white;
     background-size: 100%;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
     padding-left: 2vw;
 }
 
@@ -71,9 +71,9 @@ body {
 }
 
 #about {
-    width: 80%;
-    margin: auto;
-    text-align: center;
+    width: 98%;
+    margin-top: 4vw;
+    text-align: left;
     font-family: verdana;
     font-size: 2vw;
     display: inline;
@@ -81,7 +81,7 @@ body {
 }
 
 #projects {
-  width: 80%;
+  width: 98%;
   margin: auto;
   text-align: center;
   font-family: verdana;
@@ -91,7 +91,7 @@ body {
 }
 
 #qualifications {
-  width: 80%;
+  width: 98%;
   margin: auto;
   text-align: center;
   font-family: visible;
@@ -101,7 +101,7 @@ body {
 }
 
 #resources {
-  width: 80%;
+  width: 98%;
   margin: auto;
   text-align: center;
   font-family: verdana;
@@ -133,7 +133,7 @@ body {
 }
 
 .carousel-item {
-  /* height: 30vw; */
+  /* height: 30rem; */
   min-height: 30rem;
   overflow: hidden;
   position:relative;
@@ -153,36 +153,35 @@ body {
   padding-bottom: 50px;
 }
 
+.section_topic{
+  text-align: left;
+}
+
 .section_header{
-  font-size: 2vw;
+  font-size: 6vw;
   font-weight: bold;
   text-align: left;
 }
 
 .topic_header{
-  font-size: 1.5vw;
+  font-size: 2.2vw;
+  font-weight: bold;
   text-align: left;
-  float: left;
-}
-
-.topic_subheader{
-  font-size: 1vw;
-  text-align: left;
-  clear: both;
-  float: left;
+  display: inline-block;
 }
 
 .topic_date{
-  font-size: 1vw;
+  font-size: 2.2vw;
   text-align: right;
-  font-style: italic  ;
-  float: right;
+  font-style: italic;
+  display: inline-block;
+  margin-left: auto;
 }
 
 .topic_p{
   text-align: left;
-  clear: both;
-  font-size: 1vw;
+  font-size: 2vw;
+  display: block;
 }
 
 
