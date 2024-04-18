@@ -2,7 +2,7 @@
 h1 {
     
     text-align: center;
-    font-size: 12vw;
+    font-size: 9vw;
     margin: 0;
   }
 
@@ -14,7 +14,7 @@ h2 {
   
 p {
     font-family: verdana;
-    font-size: 3vw;
+    font-size: 4vw;
   }
 
   .navbar-toggler {
@@ -45,11 +45,20 @@ p {
   }
 
 .title {
+  text-align: left;
+  font-size: 9vw;
+  margin: 0;
+}
+
+.title_attributes {
     color: white;
+    text-align: left;
     background-size: 100%;
     padding-top: 4vw;
     padding-bottom: 4vw;
     padding-left: 2vw;
+    font-family: Georgia;
+    font-size: 5vw;
 }
 
 body {
@@ -182,6 +191,18 @@ body {
   text-align: left;
   font-size: 2vw;
   display: block;
+}
+
+.list_header {
+  font-size: 8vw;
+  text-align: left;
+}
+
+.list_content {
+  font-size: 4vw;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
