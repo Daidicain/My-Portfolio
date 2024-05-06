@@ -205,6 +205,10 @@ body {
   text-align: left;
   margin-left: auto;
   margin-right: auto;
+  display: inline-block;
+  vertical-align: text-top;
+  padding-left: 1vw;
+  padding-right: 1vw;
 }
 
 
