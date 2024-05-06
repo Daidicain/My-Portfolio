@@ -92,6 +92,8 @@ body {
 #projects {
   width: 98%;
   margin: auto;
+  margin-top: 4vw;
+  margin-bottom: 2rem;
   text-align: center;
   font-family: verdana;
   font-size: 2vw;

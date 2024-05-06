@@ -81,6 +81,7 @@ body {
 #about {
     width: 80%;
     margin: auto;
+    margin-top: 2vw;
     text-align: center;
     font-family: verdana;
     font-size: 2vw;
@@ -91,6 +92,8 @@ body {
 #projects {
   width: 80%;
   margin: auto;
+  margin-top: 2vw;
+  margin-bottom: 1rem;
   text-align: center;
   font-family: verdana;
   font-size: 2vw;
@@ -101,6 +104,7 @@ body {
 #qualifications {
   width: 80%;
   margin: auto;
+  margin-top: 2vw;
   text-align: center;
   font-family: visible;
   font-size: 2vw;
@@ -111,6 +115,7 @@ body {
 #resources {
   width: 80%;
   margin: auto;
+  margin-top: 2vw;
   text-align: center;
   font-family: verdana;
   font-size: 2vw;

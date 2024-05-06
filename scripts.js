@@ -41,3 +41,26 @@ function toggleView( id_toggle ){
     }
 
 }
+
+function toggleHeaderView( id_toggle ){
+    /*  Purpose: will toggles display of div
+        Parameters: id of item to toggle
+        return: n/a
+        last updated: 2024-02-18
+    */
+    
+    // get elements
+    var element = document.getElementById(id_toggle);
+
+    // hide if shown
+    if ( element.style.display == "inline" ){
+        element.style.display = "none";
+        return
+    }
+    // show if hidden
+    else {
+        element.style.display = "inline"
+        return
+    }
+
+}
