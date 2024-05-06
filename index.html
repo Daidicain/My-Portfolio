@@ -141,97 +141,99 @@
         </div>
 
         <div class="projects" id="projects">
-          
-          <a class="section_header" onclick="toggleView('ProjectOne');toggleView('ProjectOneOpen');toggleView('ProjectOneClose')" href="#" style="text-decoration:none; color:inherit;">
-            Backstock Tracker App
-          </a>
-          <a class="section_header" id="ProjectOneClose" onclick="toggleView('ProjectOne');toggleView('ProjectOneOpen');toggleView('ProjectOneClose')" href="#" style="display: inline;text-decoration:none; color:inherit;">
-            &and;
-          </a>
-          <a class="section_header" id="ProjectOneOpen" onclick="toggleView('ProjectOne');toggleView('ProjectOneOpen');toggleView('ProjectOneClose')" href="#" style="display: none;text-decoration:none; color:inherit;">
-            &or;
-          </a>
-          
-          <div id="ProjectOne" style="display: inline;">
-            <div class="topic_p">
-              <p>
-                I developed this application to manage and simplify the overstock process at my workplace with a few key goals. 
-                It provides tools to modify inventory forecast, make claims, display replinishment, and home replenishment.
-              </p>
-  
-              <p class="topic_header" style="display: block;">Primary Project Objectives:</p>
-              <ul>
-                <li>Improve data integrity</li>
-                <li>Improve workflow</li>
-                <li>Simplify Tasks</li>
-              </ul>
-  
+          <div> <!-- Project One -->
+            <div onclick="toggleView('ProjectOne');toggleView('ProjectOneOpen');toggleView('ProjectOneClose')">
+              <a class="section_header" href="#" style="text-decoration:none; color:inherit;">
+                Backstock Tracker App
+              </a>
+              <a class="section_header" id="ProjectOneClose" href="#" style="display: inline;text-decoration:none; color:inherit;">
+                &and;
+              </a>
+              <a class="section_header" id="ProjectOneOpen" href="#" style="display: none;text-decoration:none; color:inherit;">
+                &or;
+              </a>
             </div>
-  
-            <div id="carouselExample" class="carousel carousel-light slide" data-bs-ride="carousel" data-mdb-interval="false">
-              <div class="carousel-indicators">
-                <div data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"></div>
-                <div data-bs-target="#carouselExample" data-bs-slide-to="1"></div>
-                <div data-bs-target="#carouselExample" data-bs-slide-to="2"></div>
-                <div data-bs-target="#carouselExample" data-bs-slide-to="3"></div>
-                <div data-bs-target="#carouselExample" data-bs-slide-to="4"></div>
-                <div data-bs-target="#carouselExample" data-bs-slide-to="5"></div>
+            
+            <div id="ProjectOne" style="display: inline;">
+              <div class="topic_p">
+                <p>
+                  I developed this application to manage and simplify the overstock process at my workplace with a few key goals. 
+                  It provides tools to modify inventory forecast, make claims, display replinishment, and home replenishment.
+                </p>
+    
+                <p class="topic_header" style="display: block;">Primary Project Objectives:</p>
+                <ul>
+                  <li>Improve data integrity</li>
+                  <li>Improve workflow</li>
+                  <li>Simplify Tasks</li>
+                </ul>
+    
               </div>
-              <div class="carousel-inner" style="text-align: center;">
-                <div class="carousel-item active">
-                  <h5>Article Lookup</h5>
-                  <img src="images\project one\Article Lookup.png" style="width: 12rem; height: auto;">
-                  <p style="font-size: 1rem; width: 80%; margin: auto;">
-                    This menu allows you to lookup all of the information about a given item in the database
-                  </p>
+    
+              <div id="carouselExample" class="carousel carousel-light slide" data-bs-ride="carousel" data-mdb-interval="false">
+                <div class="carousel-indicators">
+                  <div data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"></div>
+                  <div data-bs-target="#carouselExample" data-bs-slide-to="1"></div>
+                  <div data-bs-target="#carouselExample" data-bs-slide-to="2"></div>
+                  <div data-bs-target="#carouselExample" data-bs-slide-to="3"></div>
+                  <div data-bs-target="#carouselExample" data-bs-slide-to="4"></div>
+                  <div data-bs-target="#carouselExample" data-bs-slide-to="5"></div>
                 </div>
-                <div class="carousel-item">
-                  <h5>Article Overide</h5>
-                  <img src="images\project one\Article Overide.png" style="width: 12rem; height: auto;">
-                  <p style="font-size: 1rem; width: 80%; margin: auto;">
-                    This menu allows the user to change the SRQ (how much the shelf can hold) and the Case size (how many units in a case). altering these values changes how many items the system will think can go out.
-                  </p>
+                <div class="carousel-inner" style="text-align: center;">
+                  <div class="carousel-item active">
+                    <h5>Article Lookup</h5>
+                    <img src="images\project one\Article Lookup.png" style="width: 12rem; height: auto;">
+                    <p style="font-size: 1rem; width: 80%; margin: auto;">
+                      This menu allows you to lookup all of the information about a given item in the database
+                    </p>
+                  </div>
+                  <div class="carousel-item">
+                    <h5>Article Overide</h5>
+                    <img src="images\project one\Article Overide.png" style="width: 12rem; height: auto;">
+                    <p style="font-size: 1rem; width: 80%; margin: auto;">
+                      This menu allows the user to change the SRQ (how much the shelf can hold) and the Case size (how many units in a case). altering these values changes how many items the system will think can go out.
+                    </p>
+                  </div>
+                  <div class="carousel-item">
+                    <h5>Forecast Menu</h5>
+                    <img src="images\project one\Forecast Menu.png" style="width: 12rem; height: auto;">
+                    <p style="font-size: 1rem; width: 80%; margin: auto;">
+                      This menu allows the user to see all forecast change requests
+                    </p>
+                  </div>
+                  <div class="carousel-item">
+                    <h5>Forecast Details</h5>
+                    <img src="images\project one\Forecast Details.png" style="width: 12rem; height: auto;">
+                    <p style="font-size: 1rem; width: 80%; margin: auto;">
+                      Found by clicking on an item in the forecast menu. This menu allows the user to see all forecast request details
+                    </p>
+                  </div>
+                  <div class="carousel-item">
+                    <h5>Forecast Form</h5>
+                    <img src="images\project one\Forecast Form.png" style="width: 12rem; height: auto;">
+                    <p style="font-size: 1rem; width: 80%; margin: auto;">
+                      Found by clicking the plus sign in the forecast menu. This menu allows the user to input a new forecast change request
+                    </p>
+                  </div>
+                  <div class="carousel-item">
+                    <h5>Reversepick Menu</h5>
+                    <img src="images\project one\Reversepick.png" style="width: 12rem; height: auto;">
+                    <p style="font-size: 1rem; width: 80%; margin: auto;">
+                      This menu tells the user what items can go out. It distinguishes a case from a single unit with "ea". It also says the storage location below the quantity to go for fast retrieval.
+                    </p>
+                  </div>
                 </div>
-                <div class="carousel-item">
-                  <h5>Forecast Menu</h5>
-                  <img src="images\project one\Forecast Menu.png" style="width: 12rem; height: auto;">
-                  <p style="font-size: 1rem; width: 80%; margin: auto;">
-                    This menu allows the user to see all forecast change requests
-                  </p>
-                </div>
-                <div class="carousel-item">
-                  <h5>Forecast Details</h5>
-                  <img src="images\project one\Forecast Details.png" style="width: 12rem; height: auto;">
-                  <p style="font-size: 1rem; width: 80%; margin: auto;">
-                    Found by clicking on an item in the forecast menu. This menu allows the user to see all forecast request details
-                  </p>
-                </div>
-                <div class="carousel-item">
-                  <h5>Forecast Form</h5>
-                  <img src="images\project one\Forecast Form.png" style="width: 12rem; height: auto;">
-                  <p style="font-size: 1rem; width: 80%; margin: auto;">
-                    Found by clicking the plus sign in the forecast menu. This menu allows the user to input a new forecast change request
-                  </p>
-                </div>
-                <div class="carousel-item">
-                  <h5>Reversepick Menu</h5>
-                  <img src="images\project one\Reversepick.png" style="width: 12rem; height: auto;">
-                  <p style="font-size: 1rem; width: 80%; margin: auto;">
-                    This menu tells the user what items can go out. It distinguishes a case from a single unit with "ea". It also says the storage location below the quantity to go for fast retrieval.
-                  </p>
-                </div>
+                <a class="carousel-control-prev" href="#carouselExample" role="button" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExample" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </a>
               </div>
-              <a class="carousel-control-prev" href="#carouselExample" role="button" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExample" role="button" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </a>
             </div>
           </div>
-            
         </div>
 
         <div class="qualifications" id="qualifications" style="width: 100%;">
