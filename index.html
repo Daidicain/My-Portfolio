@@ -170,14 +170,14 @@
     
               </div>
     
-              <div id="carouselExample" class="carousel carousel-light slide" data-bs-ride="carousel" data-mdb-interval="false">
+              <div id="projectOneCarousel" class="carousel carousel-light slide" data-bs-ride="carousel" data-mdb-interval="false">
                 <div class="carousel-indicators">
-                  <div data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"></div>
-                  <div data-bs-target="#carouselExample" data-bs-slide-to="1"></div>
-                  <div data-bs-target="#carouselExample" data-bs-slide-to="2"></div>
-                  <div data-bs-target="#carouselExample" data-bs-slide-to="3"></div>
-                  <div data-bs-target="#carouselExample" data-bs-slide-to="4"></div>
-                  <div data-bs-target="#carouselExample" data-bs-slide-to="5"></div>
+                  <div data-bs-target="#projectOneCarousel" data-bs-slide-to="0" class="active"></div>
+                  <div data-bs-target="#projectOneCarousel" data-bs-slide-to="1"></div>
+                  <div data-bs-target="#projectOneCarousel" data-bs-slide-to="2"></div>
+                  <div data-bs-target="#projectOneCarousel" data-bs-slide-to="3"></div>
+                  <div data-bs-target="#projectOneCarousel" data-bs-slide-to="4"></div>
+                  <div data-bs-target="#projectOneCarousel" data-bs-slide-to="5"></div>
                 </div>
                 <div class="carousel-inner" style="text-align: center;">
                   <div class="carousel-item active">
@@ -223,11 +223,81 @@
                     </p>
                   </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExample" role="button" data-bs-slide="prev">
+                <a class="carousel-control-prev" href="#projectOneCarousel" role="button" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExample" role="button" data-bs-slide="next">
+                <a class="carousel-control-next" href="#projectOneCarousel" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div> <!-- Car Rental -->
+            <div onclick="toggleView('CarRental');toggleView('CarRentalOpen');toggleView('CarRentalClose')">
+              <a class="section_header" href="#" style="text-decoration:none; color:inherit;">
+                Car Rental Inventory Software
+              </a>
+              <a class="section_header" id="CarRentalClose" href="#" style="display: inline;text-decoration:none; color:inherit;">
+                &and;
+              </a>
+              <a class="section_header" id="CarRentalOpen" href="#" style="display: none;text-decoration:none; color:inherit;">
+                &or;
+              </a>
+            </div>
+            
+            <div id="CarRental" style="display: inline;">
+              <div class="topic_p">
+                <p>
+                  The goal of this project was to design a database schema then quickly implement it into an application
+                </p>
+    
+              </div>
+    
+              <div id="CarRentalCarousel" class="carousel carousel-light slide" data-bs-ride="carousel" data-mdb-interval="false">
+                <div class="carousel-indicators">
+                  <div data-bs-target="#CarRentalCarousel" data-bs-slide-to="0" class="active"></div>
+                  <div data-bs-target="#CarRentalCarousel" data-bs-slide-to="1"></div>
+                  <div data-bs-target="#CarRentalCarousel" data-bs-slide-to="2"></div>
+                  <div data-bs-target="#CarRentalCarousel" data-bs-slide-to="3"></div>
+                </div>
+                <div class="carousel-inner" style="text-align: center;">
+                  <div class="carousel-item active">
+                    <h5>Article Lookup</h5>
+                    <img src="images/project two Car Rental/Car Rental Login.png" style="width: 36rem; height: auto;">
+                    <p style="font-size: 1rem; width: 80%; margin: auto;">
+                      This menu Authenticates the user.
+                    </p>
+                  </div>
+                  <div class="carousel-item">
+                    <h5>Article Overide</h5>
+                    <img src="images/project two Car Rental/Car Rental Inventory.png" style="width: 36rem; height: auto;">
+                    <p style="font-size: 1rem; width: 80%; margin: auto;">
+                      This menu displays all of the cars that are owned by the company and the details of the car. From this menu a user may filter down
+                      the list of cars or add and delete cars from the database. 
+                    </p>
+                  </div>
+                  <div class="carousel-item">
+                    <h5>Forecast Menu</h5>
+                    <img src="images/project two Car Rental/Car Rentals.png" style="width: 36rem; height: auto;">
+                    <p style="font-size: 1rem; width: 80%; margin: auto;">
+                      This menu tracks all current car rentals while also allowing the creation or deletion of new rentals.
+                    </p>
+                  </div>
+                  <div class="carousel-item">
+                    <h5>Forecast Details</h5>
+                    <img src="images/project two Car Rental/Car Rental Reports.png" style="width: 36rem; height: auto;">
+                    <p style="font-size: 1rem; width: 80%; margin: auto;">
+                      This menu allows the user to see a newly refreshed report based on car inventory.
+                    </p>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#CarRentalCarousel" role="button" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#CarRentalCarousel" role="button" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </a>
