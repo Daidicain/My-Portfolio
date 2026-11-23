@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Skylar's Web Portfolio</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" media="(max-width: 900px)" href="../small.css" />
+        <link rel="stylesheet" media="(min-width: 901px)" href="../large.css" />
+        <script src="../scripts.js"></script>
+    </head>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+        <div class="title_attributes" id="title" style="background-image: url('../images/Main/banner.jpg');">
+            <div class="column">
+                <h1 class="title">Projects</h1>
+                <h3>Skylar Stromme</h3>
+            </div>   
+        </div>
+        
+        <nav class="navbar navbar-expand-lg navbar-dark navigation">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon row"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" href="../index.html">About me</a>
+                <a class="nav-link" href="Work-Experience.html">Work Experience</a>
+                <a class="nav-link" href="Volunteer-Experience.html">Volunteer Experience</a>
+                <a class="nav-link" href="research.html">Research</a>
+                <a class="nav-link" aria-disabled="true" href="#" style="color: black; cursor: default;">Projects</a>
+
+              </div>
+            </div>
+            <div class="d-flex flex-row" style="text-align: right;">
+              <a href="https://github.com/Daidicain">
+                <img src="..\images\Main\github-mark-white.svg" class="icon">
+              </a>
+              <a href="https://www.linkedin.com/in/skylar-stromme/">
+                <img src="..\images\Main\In-White-128-╬ô├ñ├│@2x.png" class="icon">
+              </a>
+            </div>
+          </div>
+        </nav>
+        <div>
+          <section_topic> <!-- Nextcloud -->
+            <div class="d-flex flex-row">
+              <h3 class="topic_header">Nextcloud Self-Hosting Project</h3>
+              <h3 class="topic_date">2025</h3>
+            </div>
+            
+            <div>
+              <p class="topic_p">
+                Designed and deployed a self-hosted Nextcloud environment to provide secure, centralized access to files, photos, and documents from anywhere. The solution utilizes Docker containers, custom DNS configuration, SSL certificates, and network routing to create a reliable cloud storage platform hosted on personal infrastructure.
+              </p>
+
+              <p class="topic_p">Technologies & Skills Used:</p>
+              <ul>
+                  <li>Docker & Container Management</li>
+                  <li>Networking & Port Forwarding</li>
+                  <li>DNS and Domain Configuration</li>
+                  <li>Linux System Administration</li>
+                  <li>SSL/TLS Certificate Management</li>
+                  <li>Self-Hosted Infrastructure</li>
+              </ul>
+            </div>
+    
+              <div id="nextcloudCarousel" class="carousel carousel-light slide" data-interval="false">
+                
+                <div class="carousel-inner text-center">
+                  <div class="carousel-item active">
+                    <h5>Home screen</h5>
+                    <img src="../images/nextcloud/home.png"
+                      alt="Nextcloud file management interface"
+                      class="img-fluid w-75">
+                  </div>
+                  <div class="carousel-item">
+                    <h5>File Directory</h5>
+                    <img src="../images/nextcloud/file-directory.png"
+                      alt="Nextcloud dashboard"
+                      class="img-fluid w-75">
+                  </div>
+                  <div class="carousel-item">
+                    <h5>Photos</h5>
+                    <img src="../images/nextcloud/photos.png"
+                      alt="Nextcloud office integration"
+                      class="img-fluid w-75">
+                  </div>
+                  <div class="carousel-item">
+                    <h5>Libre office</h5>
+                    <img src="../images/nextcloud/office.png"
+                      alt="Nextcloud office integration"
+                      class="img-fluid w-75">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#nextcloudCarousel" role="button" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#nextcloudCarousel" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </a>
+                <div class="carousel-indicators">
+                  <div data-bs-target="#nextcloudCarousel" data-bs-slide-to="0" class="active"></div>
+                  <div data-bs-target="#nextcloudCarousel" data-bs-slide-to="1"></div>
+                  <div data-bs-target="#nextcloudCarousel" data-bs-slide-to="2"></div>
+                  <div data-bs-target="#nextcloudCarousel" data-bs-slide-to="3"></div>
+                </div>
+              </div>
+          </section_topic>
+          <section_topic> <!-- Minecraft -->
+
+            <div class="d-flex flex-row justify-content-between align-items-center">
+                <h3 class="topic_header">Minecraft Server</h3>
+                <h3 class="topic_date">2024</h3>
+            </div>
+
+            <div>
+                <p class="topic_p">
+                    Designed and deployed a self-hosted Minecraft server for a group of friends. Configured networking, DNS, and Docker-based services to provide reliable remote access while gaining practical experience in infrastructure management and troubleshooting.
+                </p>
+
+                <p class="topic_p">Key Accomplishments:</p>
+
+                <ul>
+                    <li>Deployed and maintained the server using Docker</li>
+                    <li>Configured DNS records and custom domain access</li>
+                    <li>Implemented network routing and port forwarding</li>
+                    <li>Troubleshot connectivity and performance issues</li>
+                    <li>Managed backups and server updates</li>
+                </ul>
+            </div>
+
+            <div id="minecraftCarousel" class="carousel carousel-light slide" data-bs-interval="false">
+                <div class="carousel-inner text-center">
+                    <div class="carousel-item active">
+                        <img src="../images/minecraft/1.png"
+                            alt="Minecraft server overview"
+                            class="img-fluid w-75">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="../images/minecraft/2.png"
+                            alt="Minecraft server administration"
+                            class="img-fluid w-75">
+                    </div>
+                </div>
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#minecraftCarousel"
+                            data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+
+                    <button type="button" data-bs-target="#minecraftCarousel"
+                            data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                </div>
+
+                <button class="carousel-control-prev" type="button"
+                        data-bs-target="#minecraftCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button class="carousel-control-next" type="button"
+                        data-bs-target="#minecraftCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+          </section_topic>
+          <section_topic> <!-- WoW -->
+              <div class="d-flex flex-row justify-content-between align-items-center">
+                  <h3 class="topic_header">World of Warcraft Server</h3>
+                  <h3 class="topic_date">2023</h3>
+              </div>
+
+              <div>
+
+                  <p class="topic_p">
+                      Built and hosted a private World of Warcraft: Wrath of the Lich King server using TrinityCore to
+                      recreate an expansion that was no longer available in its original form. This project
+                      involved compiling the server software from source with CMake, configuring networking and DNS,
+                      initializing the game database, and troubleshooting server deployment issues.
+                  </p>
+
+                  <p class="topic_p">Technologies & Skills:</p>
+
+                  <ul>
+                      <li>Network configuration and remote connectivity</li>
+                      <li>Domain name and DNS configuration</li>
+                      <li>CMake build system and source compilation</li>
+                      <li>MySQL database initialization and management</li>
+                      <li>Linux server administration</li>
+                      <li>Application deployment and troubleshooting</li>
+                  </ul>
+
+              </div>
+
+              <div id="wowCarousel" class="carousel carousel-light slide" data-bs-interval="false">
+
+                  <div class="carousel-inner text-center">
+
+                      <div class="carousel-item active">
+                          <img src="../images/wow/character.png"
+                              alt="World of Warcraft character screen"
+                              class="img-fluid w-75">
+                      </div>
+
+                      <div class="carousel-item">
+                          <img src="../images/wow/lichking.png"
+                              alt="Wrath of the Lich King gameplay"
+                              class="img-fluid w-75">
+                      </div>
+
+                      <div class="carousel-item">
+                          <img src="../images/wow/lichking2.png"
+                              alt="World of Warcraft server project screenshot"
+                              class="img-fluid w-75">
+                      </div>
+
+                      <div class="carousel-item">
+                          <img src="../images/wow/lichking3.png"
+                              alt="World of Warcraft raid encounter"
+                              class="img-fluid w-75">
+                      </div>
+
+                  </div>
+
+                  <div class="carousel-indicators">
+                      <div data-bs-target="#wowCarousel" data-bs-slide-to="0" class="active"></div>
+                      <div data-bs-target="#wowCarousel" data-bs-slide-to="1"></div>
+                      <div data-bs-target="#wowCarousel" data-bs-slide-to="2"></div>
+                      <div data-bs-target="#wowCarousel" data-bs-slide-to="3"></div>
+                  </div>
+
+                  <a class="carousel-control-prev" href="#wowCarousel" role="button" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                  </a>
+
+                  <a class="carousel-control-next" href="#wowCarousel" role="button" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                  </a>
+
+              </div>
+
+          </section_topic>
+          <section_topic> <!-- Project One -->
+            <div class="d-flex flex-row">
+              <h3 class="topic_header">Backstock Tracker App</h3>
+              <h3 class="topic_date">2022</h3>
+            </div>
+            
+              <div>
+
+                <p class="topic_p">
+                    Designed and developed an inventory management application used to support
+                    daily backstock operations. The application consolidated several inventory
+                    management processes into a single interface, improving workflow efficiency,
+                    reducing data-entry errors, and providing greater visibility into inventory
+                    forecasting and replenishment activities.
+                </p>
+
+                <p class="topic_p">Project Objectives:</p>
+
+                <ul>
+                    <li>Improve inventory data accuracy and consistency</li>
+                    <li>Reduce manual effort and repetitive tasks</li>
+                    <li>Streamline inventory and replenishment workflows</li>
+                    <li>Provide greater visibility into forecast and stock changes</li>
+                    <li>Create a centralized tool for backstock management</li>
+                </ul>
+
+            </div>
+
+  
+  
+            <div id="projectOneCarousel" class="carousel carousel-light slide"  data-interval="false">
+              
+              <div class="carousel-inner" style="text-align: center;">
+                <div class="carousel-item active">
+                  <h5>Article Lookup</h5>
+                  <img src="..\images\project one\Article Lookup.png"
+                    alt="Nextcloud file management interface"
+                    class="img-fluid w-30">
+                  <p style="font-size: 1rem; width: 60%; margin: auto;">
+                      Search for an item and view detailed inventory information, including
+                      replenishment settings, forecast values, and product metadata from the database.
+                  </p>
+                </div>
+                <div class="carousel-item">
+                  <h5>Article Overide</h5>
+                  <img src="..\images\project one\Article Overide.png"
+                    alt="Nextcloud file management interface"
+                    class="img-fluid w-30">
+                  <p style="font-size: 1rem; width: 60%; margin: auto;">
+                      Modify key inventory parameters such as Shelf Replenishment Quantity (SRQ)
+                      and case size. These adjustments directly influence replenishment calculations
+                      and stocking recommendations throughout the system.
+                  </p>
+                </div>
+                <div class="carousel-item">
+                  <h5>Forecast Menu</h5>
+                  <img src="..\images\project one\Forecast Menu.png"
+                    alt="Nextcloud file management interface"
+                    class="img-fluid w-30">
+                  <p style="font-size: 1rem; width: 60%; margin: auto;">
+                      Displays all forecast adjustment requests in a centralized view, allowing
+                      users to easily track, review, and manage pending inventory forecast changes.
+                  </p>
+                </div>
+                <div class="carousel-item">
+                  <h5>Forecast Details</h5>
+                  <img src="..\images\project one\Forecast Details.png"
+                    alt="Nextcloud file management interface"
+                    class="img-fluid w-30">
+                  <p style="font-size: 1rem; width: 60%; margin: auto;">
+                      Provides a detailed breakdown of a selected forecast request, including
+                      requested changes, supporting information, and approval status.
+                  </p>
+                </div>
+                <div class="carousel-item">
+                  <h5>Forecast Form</h5>
+                  <img src="..\images\project one\Forecast Form.png"
+                    alt="Nextcloud file management interface"
+                    class="img-fluid w-30">
+                  <p style="font-size: 1rem; width: 60%; margin: auto;">
+                      Allows users to submit new forecast adjustment requests through a structured
+                      form, helping standardize inventory planning and reduce data-entry errors.
+                  </p>
+                </div>
+                <div class="carousel-item">
+                  <h5>Reversepick Menu</h5>
+                  <img src="..\images\project one\Reversepick.png"
+                    alt="Nextcloud file management interface"
+                    class="img-fluid w-30">
+                  <p style="font-size: 1rem; width: 60%; margin: auto;">
+                      Generates replenishment recommendations by identifying items that should be
+                      moved from backstock to the sales floor. Quantities are clearly distinguished
+                      between individual units and full cases, and storage locations are displayed
+                      to speed up item retrieval.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-indicators">
+                <div data-bs-target="#projectOneCarousel" data-bs-slide-to="0" class="active"></div>
+                <div data-bs-target="#projectOneCarousel" data-bs-slide-to="1"></div>
+                <div data-bs-target="#projectOneCarousel" data-bs-slide-to="2"></div>
+                <div data-bs-target="#projectOneCarousel" data-bs-slide-to="3"></div>
+                <div data-bs-target="#projectOneCarousel" data-bs-slide-to="4"></div>
+                <div data-bs-target="#projectOneCarousel" data-bs-slide-to="5"></div>
+              </div>
+              <a class="carousel-control-prev" href="#projectOneCarousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#projectOneCarousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </a>
+            </div>
+          </section_topic>
+          <section_topic> <!-- Car Rental -->
+            <div class="d-flex flex-row">
+              <h3 class="topic_header">Car Rental Inventory Software</h3>
+              <h3 class="topic_date">2022</h3>
+            </div>
+            
+            <div>
+              <div>
+
+                  <p class="topic_p">
+                      Developed a full-stack car rental management application to demonstrate database
+                      design principles and business application development. The project began with
+                      designing a normalized relational database schema to model customers, vehicles,
+                      and rental transactions, followed by the implementation of an inventory management,
+                      rental tracking, authentication, and reporting system.
+                  </p>
+
+                  <p class="topic_p">Technologies & Skills:</p>
+
+                  <ul>
+                      <li>Relational database design and normalization</li>
+                      <li>Entity relationship modeling</li>
+                      <li>CRUD application development</li>
+                      <li>User authentication and access control</li>
+                      <li>Inventory management systems</li>
+                      <li>Reporting and data analytics</li>
+                  </ul>
+
+              </div>
+    
+    
+              <div id="CarRentalCarousel" class="carousel carousel-light slide"  data-interval="false">
+                
+                <div class="carousel-inner" style="text-align: center;">
+                  <div class="carousel-item active">
+                    <h5>User Authentication</h5>
+                    <img src="..\images\project two Car Rental/Car Rental Login.png"
+                      alt="Nextcloud file management interface"
+                      class="img-fluid w-75">
+                    <p style="font-size: 1rem; width: 60%; margin: auto;">
+                        Secure login interface used to authenticate users and restrict access to
+                        authorized personnel before accessing rental and inventory data.
+                    </p>
+                  </div>
+                  <div class="carousel-item">
+                    <h5>Vehicle Inventory Management</h5>
+                    <img src="..\images\project two Car Rental/Car Rental Inventory.png"
+                      alt="Nextcloud file management interface"
+                      class="img-fluid w-75">
+                    <p style="font-size: 1rem; width: 60%; margin: auto;">
+                        Displays the company's vehicle fleet and associated information. Users can
+                        search, filter, add, update, and remove vehicles while maintaining accurate
+                        inventory records within the database.
+                    </p>
+                  </div>
+                  <div class="carousel-item">
+                    <h5>Rental Management</h5>
+                     <img src="..\images\project two Car Rental/Car Rentals.png"
+                      alt="Nextcloud file management interface"
+                      class="img-fluid w-75">
+                    <p style="font-size: 1rem; width: 60%; margin: auto;">
+                        Tracks active and historical vehicle rentals. Users can create new rental
+                        agreements, manage existing rentals, and process returns through a centralized interface.
+                    </p>
+                  </div>
+                  <div class="carousel-item">
+                    <h5>Inventory Reporting</h5>
+                    <img src="..\images\project two Car Rental/Car Rental Reports.png"
+                      alt="Nextcloud file management interface"
+                      class="img-fluid w-75">
+                    <p style="font-size: 1rem; width: 60%; margin: auto;">
+                        Generates real-time reports using data from the vehicle inventory database,
+                        providing insight into fleet availability, utilization, and overall inventory status.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-indicators">
+                  <div data-bs-target="#CarRentalCarousel" data-bs-slide-to="0" class="active"></div>
+                  <div data-bs-target="#CarRentalCarousel" data-bs-slide-to="1"></div>
+                  <div data-bs-target="#CarRentalCarousel" data-bs-slide-to="2"></div>
+                  <div data-bs-target="#CarRentalCarousel" data-bs-slide-to="3"></div>
+                </div>
+                <a class="carousel-control-prev" href="#CarRentalCarousel" role="button" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#CarRentalCarousel" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </a>
+              </div>
+          </section_topic>
+        </div>
+        <div class="footer" style="background-image: url('../images/Main/banner.jpg');">
+            <p>Author: Skylar Stromme</p>
+        </div>
+    </body>
+</html>

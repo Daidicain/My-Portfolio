@@ -145,17 +145,15 @@ body {
   user-select: none; /* Standard syntax */
 }
 
-.carousel-item {
-  /* height: 30rem; */
-  min-height: 30rem;
-  overflow: hidden;
-  position:relative;
-  background-position: center;
-  /* background-size: cover; */
+
+.carousel-indicators {
+    position: static;
+    margin-top: 1rem;
+    margin-bottom: 0;
 }
 
-.carousel{
-  padding-bottom: 2rem;
+.carousel-inner {
+    text-align: center;
 }
 
 .container {
@@ -211,4 +209,19 @@ body {
   margin-right: auto;
   padding-left: 5vw;
   padding-right: 5vw;
+}
+
+.project-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.project-container img {
+    width: 300px;
+    height: auto;
+}
+
+.project-text {
+    flex: 1;
 }

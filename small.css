@@ -1,4 +1,20 @@
   
+/* #nextcloudCarousel .carousel-item {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+#nextcloudCarousel #minecraftCarousel .carousel-indicators {
+    position: static;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+#nextcloudCarousel #minecraftCarousel .carousel-inner {
+    text-align: center;
+}
+
 h1 {
     
     text-align: center;
@@ -143,18 +159,18 @@ body {
   user-select: none; /* Standard syntax */
 }
 
-.carousel-item {
-  /* height: 30rem; */
+/* .carousel-item {
+  height: 30rem;
   min-height: 30rem;
   overflow: hidden;
   position:relative;
   background-position: center;
-  /* background-size: cover; */
-}
+  background-size: cover;
+}*/
 
-.carousel{
+/* .carousel{
   padding-bottom: 2rem;
-}
+} */
 
 .container {
   position: absolute;
@@ -211,4 +227,17 @@ body {
   padding-right: 1vw;
 }
 
+.project-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
 
+.project-container img {
+    width: 300px;
+    height: auto;
+}
+
+.project-text {
+    flex: 1;
+}
